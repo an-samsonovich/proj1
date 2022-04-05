@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Массивы
+
+        let a1 = []; /* пустой массив */
+        let a3 = ['First','Second','Third'];
+        let a6 = [3]; //массив из одного элемента
+
+        let a2 = new Array();
+        let a4 = new Array(2,5,3,5.1,-5,37.33,10,15);
+        let a5 = new Array(5); //пустой массив из 5 элементов
+
+        a5[0] = 5;
+
+        console.log(a5);
+
+        console.log(a3[1]);
+
+        a3[1]='Второй элемент';
+
+        console.log(a3[1]);
+
+        console.log(a3);
+
+        console.log('Длина массива а4',a4.length);
+
+        for(i=0;i<a4.length;i++) {
+            console.log(a4[i]);
+        }
+
+
+
+        a3[3] = 'Четверый';
+        for (index of a3) console.log(index);
+
+
+
+        
+
+    </script>
+</body>
+</html>
